@@ -1,0 +1,40 @@
+
+
+.bgvid {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvid video{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.vidt {
+    color: rgb(94, 255, 0);
+    z-index: 3;
+}
+
+.navbar {
+    z-index: 2;
+}
+
+.ef {
+    z-index: 3;
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.514);
+}
